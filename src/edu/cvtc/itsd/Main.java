@@ -363,6 +363,7 @@ public class Main {
     // Display the GUI ////////////////////////////////////////////////////////
     frame.pack();
     frame.setLocationRelativeTo(null);
+    frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
     frame.setVisible(true);
   }
 }
