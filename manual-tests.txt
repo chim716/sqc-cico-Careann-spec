@@ -31,7 +31,8 @@ Use `./build.sh` to build CiCo and `./run.sh` to run it if using the command lin
 * The main, status, and error panels should use a light gray background with dark text.
 * The input field should be white. The buttons and selected text background should be gray.
 * The text, selected number, and blinking cursor should be easy to see.
-* The status panel should display "Developer" and "Checked IN" after step 3, then "Checked OUT" after step 5.
+* The status panel should display "Developer" and either "Checked IN" or "Checked OUT" after step 3.
+* The status should switch to the opposite value after step 5.
 * The main panel should return with an empty field after steps 4, 6, 8, and 9.
 * The error panel should display "Please show your card to staff to validate." after step 7.
 * The version number should stay visible in white on a dark gray footer.
